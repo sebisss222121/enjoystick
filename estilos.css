@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.contenedor {
+    margin: 0 auto;
+    width: 1140px;
+    padding: 0 15px;
+    background: rgba(179, 221, 206, 1);
+}
+
+
+
+header#encabezado h1 {
+    text-align: center;
+    font-family: AGOYES GAME;
+font-size: xx-large;
+}
+
+header#encabezado p {
+    padding: 30px 10px;
+    font-size: 26px;
+    font-weight: 100;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Athabasca;
+    letter-spacing:1px;
+    line-height: 29px;
+}
+
+
+
+.btn1 {
+
+    font-size: 20px;
+    border-radius: 13px;
+    text-align: center;
+    line-height: 20px;
+    border: 2px solid black;
+    background: rgba(140, 142, 123, 1);
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    flex-direction: row;
+    text-decoration: none;
+
+}
+
+.btn1:hover {
+    background: rgba(120, 159, 159, 1);
+}
+nav ul li a{
+    color: black;
+    font-family: athabasca;
+}
+nav ul{
+    display: flex;
+    width: 760px;
+    justify-content:space-between;
+}
+nav {
+    background: rgba(179, 221, 206, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    margin-top: 16px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header#encabezado h2 {
+    text-align: center;
+    font-family: Athabasca regular;
+    font-size: 50px;
+    padding: 50px;
+}
+
+#registrarme {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.textregistro{
+    margin-top: -70px;
+    line-height: 29px;
+}
+figure{
+     margin-top: -38px;
+}
+.img2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#parejas{
+    padding: 65px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-evenly;
+    
+}
+.testimoño1 {
+    background-color: rgba(240, 150, 121, 1);
+}
+
+.testimoño2 {
+    background-color: rgba(240, 150, 121, 1);
+
+}
+#parejas article{
+    width: 390px;
+    height:320px;
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius: 23px;
+}
+#parejas h3 {
+    text-align: center;
+    font-family: Athabasca regular;
+    font-size: 36px;
+margin-top: -19px;
+
+}
+
+
+.text{
+    margin-top: -14px;
+}
+.text2{
+    margin-top: -23px;
+}
+figure{
+    margin-top: -38px;
+}
+
+#beneficios{
+   display: flex;
+   flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.beneficio1 {
+    background-color: rgba(171, 226, 226, 1);
+}
+
+.beneficio2 {
+    background-color: rgba(171, 226, 226, 1);
+}
+#beneficios{
+padding: 65px;
+}
+#beneficios article{
+   
+    width: 290px;
+    height:200px;
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius: 23px;
+}
+#beneficios h3 {
+    text-align: center;
+    font-family: Athabasca regular;
+    font-size: 36px;
+margin-top: 2px;
+}
+
+.imgb{
+    margin-top: -90px;
+}
+.imgb4{
+    margin-top: -60px;
+}
+.imgb2{
+    margin-top: -70px;
+}
+
+
+
+
+
+#beneficios2{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-evenly;
+ }
+ 
+ 
+ .beneficio3 {
+     background-color: rgba(171, 226, 226, 1);
+ }
+ 
+ .beneficio4 {
+     background-color: rgba(171, 226, 226, 1);
+ }
+ #beneficios2{
+ padding: 65px;
+ }
+ #beneficios2 article{
+    
+     width: 290px;
+     height:200px;
+     border: 3px solid black;
+     font-size: 20px;
+     border-radius: 23px;
+ }
+ #beneficios2 h3 {
+     text-align: center;
+     font-family: Athabasca regular;
+     font-size: 36px;
+ margin-top: 2px;
+ }
+ .imgb3{
+     margin-top: -90px;
+ }
+ 
+ .imgb4{
+    margin-top: -80px;
+ }
+ #redes{
+    background: rgba(179, 221, 206, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+ }
+
+#contacto{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-evenly;
+}
+.contactos{
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+     justify-content: space-evenly;
+}
